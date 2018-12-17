@@ -5,4 +5,5 @@
 
 node_modules
 test
-react-prime
+rest-api-server
+ts-react-mobx-boilerplate
