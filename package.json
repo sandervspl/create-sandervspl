@@ -1,0 +1,20 @@
+{
+  "name": "create-sandervspl",
+  "version": "0.1.0",
+  "description": "Installs the latest version of my personal boilerplates.",
+  "main": "index.js",
+  "bin": {
+    "create-sandervspl": "./index.js"
+  },
+  "scripts": {
+    "pub:patch": "npm version patch && npm publish",
+    "pub:minor": "npm version minor && npm publish",
+    "pub:major": "npm version major && npm publish"
+  },
+  "dependencies": {
+    "commander": "2.19.0",
+    "progress-estimator": "^0.2.2"
+  },
+  "author": "Sander Vispoel <contact@sandervispoel.com>",
+  "license": "MIT"
+}

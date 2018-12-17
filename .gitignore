@@ -1,0 +1,8 @@
+.DS_Store
+.vscode
+.gitattributes
+.progress-estimations
+
+node_modules
+test
+react-prime
