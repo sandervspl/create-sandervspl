@@ -25,6 +25,12 @@ const REPO_NAMES = {
 const REPO_NAME = REPO_NAMES[argsType];
 const PROJECT_NAME = argsName || REPO_NAME;
 
+const repoNamesList = Object.keys(REPO_NAMES);
+
+if (!repoNamesList.includes(argsType)) {
+  return console.error(`Error: Invalid type given. Choose one of: ${repoNamesList.join(', ')}`)
+}
+
 // Check if directory already exists to prevent overwriting existing data
 if (fs.existsSync(PROJECT_NAME)) {
   return console.error(`Error: directory '${PROJECT_NAME}' already exists.`);
