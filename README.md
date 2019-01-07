@@ -1,4 +1,4 @@
-This package installs various packages.
+This package installs various personal boilerplates.
 
 ## Quick start
 ```
