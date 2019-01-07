@@ -19,7 +19,8 @@ const [argsType, argsName] = program.args;
 
 // Naming constants
 const REPO_NAMES = {
-  web: 'ts-react-mobx-boilerplate',
+  'web-mobx': 'ts-react-mobx-boilerplate',
+  'web-redux': 'ts-react-redux-boilerplate',
   api: 'rest-api-server',
 };
 const REPO_NAME = REPO_NAMES[argsType];
