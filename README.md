@@ -1,8 +1,8 @@
 This package installs various personal boilerplates.
 
-## Quick start
+## How to use
 ```
-npx create-sandervspl [type] [name]
+npx create-sandervspl [type] [project name]
 ```
 
 Type can be
