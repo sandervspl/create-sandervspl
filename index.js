@@ -55,7 +55,7 @@ const updatePackage = () => {
 };
 
 // All commands needed to run to guarantee a successful and clean installation
-const commands = [
+const steps = [
   {
     cmd: `git clone https://github.com/sandervspl/${REPO_NAME}.git ${PROJECT_NAME}`,
     message: `🚚 Cloning ${REPO_NAME} into '${PROJECT_NAME}'...`,
@@ -79,7 +79,7 @@ const install = () => new Promise((resolve, reject) => {
   let step = 0;
 
   const run = async () => {
-    const installStep = commands[step];
+    const installStep = steps[step];
 
     await logger(
       new Promise((loggerResolve) => exec(installStep.cmd, (err) => {
@@ -96,7 +96,7 @@ const install = () => new Promise((resolve, reject) => {
       },
     );
 
-    if (step < commands.length - 1) {
+    if (step < steps.length - 1) {
       step++;
       run();
     } else {
