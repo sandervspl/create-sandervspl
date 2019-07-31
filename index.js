@@ -23,6 +23,7 @@ const REPO_NAMES = {
   'web-redux': 'ts-react-redux-boilerplate',
   'web-ssr': 'ts-react-redux-boilerplate-ssr',
   api: 'rest-api-server',
+  node: 'simple-node-boilerplate'
 };
 const REPO_NAME = REPO_NAMES[argsType];
 const PROJECT_NAME = argsName || REPO_NAME;
