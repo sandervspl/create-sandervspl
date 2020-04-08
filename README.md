@@ -10,4 +10,4 @@ Type can be
 - [web-redux](https://github.com/sandervspl/ts-react-redux-boilerplate)
 - [web-mobx](https://github.com/sandervspl/ts-react-mobx-boilerplate)
 - [web-ssr](https://github.com/sandervspl/ts-react-redux-boilerplate-ssr)
-- [simple-node-boilerplate](https://github.com/sandervspl/simple-node-boilerplate)
+- [node](https://github.com/sandervspl/simple-node-boilerplate)
